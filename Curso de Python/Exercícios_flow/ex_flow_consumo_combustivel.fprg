@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="AEMO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-29 05:12:46 "/>
+        <attribute name="created" value="QUVNTztERVNLVE9QLUlPVDlBM1E7MjAyMy0wMy0yOTsiMDM6MzI6MDYgIjsyNTUz"/>
+        <attribute name="edited" value="QUVNTztERVNLVE9QLUlPVDlBM1E7MjAyMy0wMy0yOTsiMDU6MTI6NDYgIjszOzI2Njc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kml, distancia, preco, consumo" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o consumo em km/l: &quot;" newline="True"/>
+            <input variable="kml"/>
+            <output expression="&quot;Digite a dist&#226;ncia da viagem em km: &quot;" newline="True"/>
+            <input variable="distancia"/>
+            <output expression="&quot;Qual o pre&#231;o atual do combust&#237;vel? &quot;" newline="True"/>
+            <input variable="preco"/>
+            <assign variable="consumo" expression="(distancia / kml) * preco"/>
+            <output expression="&quot;O consumo total para esta viagem &#233; de &quot; &amp; consumo &amp; &quot; euros.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

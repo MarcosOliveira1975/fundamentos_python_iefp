@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="AEMO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-29 03:20:01 "/>
+        <attribute name="created" value="QUVNTztERVNLVE9QLUlPVDlBM1E7MjAyMy0wMy0yOTsiMDI6MDE6MzkgIjsyNTU0"/>
+        <attribute name="edited" value="QUVNTztERVNLVE9QLUlPVDlBM1E7MjAyMy0wMy0yOTsiMDM6MjA6MDEgIjsxOzI2NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, maior" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Digite o segundo n&#250;mero: &quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Digite o terceiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="n3"/>
+            <if expression="n1 &gt; n2">
+                <then>
+                    <if expression="n2 &gt; n3">
+                        <then>
+                            <assign variable="maior" expression="n2"/>
+                        </then>
+                        <else>
+                            <assign variable="maior" expression="n3"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="n1 &gt; n3">
+                        <then>
+                            <assign variable="maior" expression="n1"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <output expression="maior" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

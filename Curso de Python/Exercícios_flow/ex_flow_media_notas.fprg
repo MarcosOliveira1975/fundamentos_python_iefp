@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="AEMO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-29 05:28:23 "/>
+        <attribute name="created" value="QUVNTztERVNLVE9QLUlPVDlBM1E7MjAyMy0wMy0yOTsiMDU6MTI6NDggIjsyNTU5"/>
+        <attribute name="edited" value="QUVNTztERVNLVE9QLUlPVDlBM1E7MjAyMy0wMy0yOTsiMDU6Mjg6MjMgIjsyOzI2Njg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, nota5, nota6, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor da nota 1: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite o valor da nota 2: &quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Digite o valor da nota 3: &quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Digite o valor da nota 4: &quot;" newline="True"/>
+            <input variable="nota4"/>
+            <output expression="&quot;Digite o valor da nota 5: &quot;" newline="True"/>
+            <input variable="nota5"/>
+            <output expression="&quot;Digite o valor da nota 6: &quot;" newline="True"/>
+            <input variable="nota6"/>
+            <assign variable="media" expression="(nota1 + nota2) / 2"/>
+            <if expression="media &gt;= 9.5">
+                <then>
+                    <output expression="&quot;Sua m&#233;dia foi &quot; &amp; media &amp; &quot;. Voc&#234; est&#225; APROVADO&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Sua m&#233;dia foi &quot; &amp; media &amp; &quot;. Voc&#234; est&#225; REPROVADO&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

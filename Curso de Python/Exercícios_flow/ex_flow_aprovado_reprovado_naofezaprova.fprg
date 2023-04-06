@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="AEMO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-29 05:36:42 "/>
+        <attribute name="created" value="QUVNTztERVNLVE9QLUlPVDlBM1E7MjAyMy0wMy0yOTsiMDU6Mjg6MjQgIjsyNTYw"/>
+        <attribute name="edited" value="QUVNTztERVNLVE9QLUlPVDlBM1E7MjAyMy0wMy0yOTsiMDU6MzY6NDIgIjsxOzI2Njc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, media" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor da nota 1: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite o valor da nota 2: &quot;" newline="True"/>
+            <input variable="nota2"/>
+            <assign variable="media" expression="(nota1 + nota2) / 2"/>
+            <if expression="media &gt;= 10">
+                <then>
+                    <output expression="&quot;APROVADO&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="media &gt; 0">
+                        <then>
+                            <output expression="&quot;REPROVADO&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;O aluno n&#227;o fez a prova!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

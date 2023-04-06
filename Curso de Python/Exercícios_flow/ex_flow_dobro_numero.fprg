@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="AEMO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-29 05:19:20 "/>
+        <attribute name="created" value="QUVNTztERVNLVE9QLUlPVDlBM1E7MjAyMy0wMy0yOTsiMDU6MTc6MjggIjsyNTYy"/>
+        <attribute name="edited" value="QUVNTztERVNLVE9QLUlPVDlBM1E7MjAyMy0wMy0yOTsiMDU6MTk6MjAgIjsxOzI2NjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor, dobro" type="Integer" array="False" size=""/>
+            <output expression="&quot;Escreva um n&#250;mero qualquer: &quot;" newline="True"/>
+            <input variable="valor"/>
+            <assign variable="dobro" expression="valor * 2"/>
+            <output expression="&quot;O dobro do n&#250;mero que voc&#234; digitou &#233;: &quot; &amp; dobro" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

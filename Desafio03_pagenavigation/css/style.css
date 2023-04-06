@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0 20px;
+}
+
+header {
+    width: 100vw;
+    height: 50px;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    background-color: rgb(3, 3, 58);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+header nav a:hover {
+    font-weight: bold;
+    color: gray
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    max-width: 100vw
+}
+
+section {
+    margin: 20px;
+    
+}
+
+.sidebar {
+    background-color: rgb(134, 134, 247);
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    justify-content: space-between;
+    height: 100vh;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+.sidebar_content {
+    padding: 10px;
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    
+}
+
+.store {
+    display: flex;
+    align-items: center;
+   
+}
+
+footer {
+    width: 100vw;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    background-color: rgb(14, 14, 250);
+    align-items: center;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+.form-label {
+    margin-left: 20px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px; 
+    margin-left: 20px;
+    width: 350px;
+    padding: 10px;
+}
+
+.mb-3 {
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+span {
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.lh-base {
+    margin-left: 20px;
+}
+
+.btn-primary {
+    padding: 5px 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.form-control-message {
+    height: 100px;
+    width: 350px;
+    border-color: rgb(226, 223, 223);
+    margin-left: 20px;
+    padding: 10px;
+
+}
+
+.form-text {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.index_text {
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 10px;
+}
+
+.index_picture {
+    margin: 10px;
+
+}
+
